@@ -4,7 +4,7 @@ import xmltodict
 vertreklocatie = None
 aankomstlocatie = None
 
-def api(station):
+def api(station):l
     """station functie zet gebruiker input bij het "van" veld om naar de stations API en vervolgens naar XML"""
     auth_details = ('janpaulmoolen99@gmail.com', 'BL03juvmVIkzP65x1p8F4iTokVclbRUFv04Icuejr3GW45fGPLsnEA')
     api_url = 'http://webservices.ns.nl/ns-api-avt?station={}'.format(station)
